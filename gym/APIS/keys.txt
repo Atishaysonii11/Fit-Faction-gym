@@ -1,0 +1,3 @@
+publishable key:pk_test_cHJvYmFibGUtZWFyd2lnLTUzLmNsZXJrLmFjY291bnRzLmRldiQ
+frontend API URL:https://probable-earwig-53.clerk.accounts.dev
+backend api url:https://api.clerk.com

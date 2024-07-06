@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Back",
+        "image":"images/back.gif"
+    },
+    {
+       "name":"Cardio",
+        "image":"images/cardio2.gif"
+    },
+    {
+        "name":"Chest",
+        "image":"images/chest.gif"
+    },
+    {
+       "name":"Lower Arms",
+        "image":"images/lower_arms.gif"
+    } 
+]

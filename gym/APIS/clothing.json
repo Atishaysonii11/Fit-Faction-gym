@@ -1,0 +1,49 @@
+[
+    {
+        "name":"Dry-fit",
+        "price":"$100",
+        "image":"./images/img1.jpeg"
+    },
+    {
+        "name":"Dry-fit",
+        "price":"$180",
+        "image":"./images/img2.webp"
+    },
+    {
+        "name":"Mens dry-fit",
+        "price":"$120",
+        "image":"./images/img3.jpeg"
+    },
+    {
+        "name":"Dry-fit",
+        "price":"$100",
+        "image":"./images/img4.jpeg"
+    },
+    {
+        "name":"T-shirt",
+        "price":"$90",
+        "image":"./images/img5.jpeg"
+    },
+    {
+        "name":"Womens Jacket",
+        "price":"$200",
+        "image":"./images/img6.jpeg"
+    },
+    {
+        "name":"Dry-fit",
+        "price":"$100",
+        "image":"./images/img7.jpeg"
+    },
+    {
+        "name":"Mens Jacket",
+        "price":"$150",
+        "image":"./images/img8.jpeg"
+    },
+    {
+        "name":"Dry-fit",
+        "price":"$85",
+        "image":"./images/img9.jpeg"
+    }
+    
+    
+]

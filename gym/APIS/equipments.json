@@ -1,0 +1,48 @@
+[
+{
+    "name":"Dumble",
+    "price":"$100",
+    "image":"./images/dumbell.jpeg"
+},
+{
+    "name":"Chest Press",
+    "price":"$400",
+    "image":"./images/chest_press.jpeg"
+},
+{
+    "name":"Incline chest press",
+    "price":"$450",
+    "image":"./images/incline_chest.jpeg"
+},
+{
+    "name":"Leg press",
+    "price":"$700",
+    "image":"./images./leg_press2.jpeg"
+},
+{
+    "name":"Tredmil;",
+    "price":"$500",
+    "image":"./images/tredmill.jpeg"
+},
+{
+    "name":"Stairs",
+    "price":"$1000",
+    "image":"./images/stairs.jpeg"
+},
+{
+    "name":"Cycle",
+    "price":"$300",
+    "image":"./images/cycle.jpeg"
+},
+{
+    "name":"Kettelbell",
+    "price":"$150",
+    "image":"./images/kettelbell.jpeg"
+},
+{
+    "name":"Pulley pushdown",
+    "price":"$1500",
+    "image":"./images/pulley.jpeg"
+}
+
+]

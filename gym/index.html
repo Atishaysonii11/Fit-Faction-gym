@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Fit Faction</title>
+    <link rel="icon" type="image/png" href="./images/GYM LOGO 1-Photoroom.jpg">
+</head>
+<body>
+    <nav>
+        <div class="main-nav">
+            <div class="container">
+                <div class="main-inner-nav">
+                    <div class="logo"><img src="./images/GYM LOGO 1.png" alt=""></div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="#section1">HOME</a></li>
+                            <li><a href="#section2">PROGRAMS</a></li>
+                            <li><a href="#section3">EXCERCISE</a></li>
+                            <li><a href="#section4">SHOP</a></li>
+                            <li><a href="#section5">ABOUT US</a></li>
+                            <li><a href="#section6">FACILITIES</a></li>
+                        </ul>
+                    </div>
+                    <div class="search"><input type="text" placeholder="Search"></div>
+                    <div class="login" id="login"><a href="./login.html">LOGIN/REGISTER</a></div>
+                    <div class="cart" id="cart" onclick="orderedItems()"><img src="./images/Cart Icon.png" alt=""></div>
+                    <div class="wishlist" id="wishlist"><img src="./images/WishList Icon.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <a id="section1">
+    <section1>
+        <div class="main-hero-section">
+            
+                <div class="main-inner-hero">
+                    <div class="hero-img"><img src="./images/hero-img.png" alt=""></div>
+                    <div class="show-cart-items" id="cart-items"><h4>Your Cart</h4></div>
+                    <div class="four-items">
+                        <div class="container">
+                            <div class="main-four-items">
+
+                                <div class="free-shipping">
+                                    <div class="free-img"><img src="./images/Shipping Icon.png" alt=""></div>
+
+                                    <div class="free-name"><H5>FREE SHIPPING</H5></div>
+                                    <div class="free-desc">Contrary to popular belief ipsum is simply random.</div>
+                                </div>
+                                <div class="free-shipping">
+
+                                    <div class="free-img"><img src="./images/Payment Icon.png" alt=""></div>
+                                    <div class="free-name"><H5>INSTANT PAYMENTS</H5></div>
+                                    <div class="free-desc">Contrary to popular belief ipsum is simply random.</div>
+                                </div>
+                                <div class="free-shipping">
+                                    <div class="free-img"><img src="./images/Repeat Icon.png" alt=""></div>
+                                    <div class="free-name"><H5>EXCHANGE AND RETURN</H5></div>
+                                    <div class="free-desc">Contrary to popular belief ipsum is simply random.</div>
+                                </div>
+                                <div class="free-shipping">
+                                    <div class="free-img"><img src="./images/24 hours Icon.png" alt=""></div>
+                                    <div class="free-name"><H5>CUSTOMER SERVICE</H5></div>
+                                    <div class="free-desc">Contrary to popular belief ipsum is simply random.</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            
+        </div>
+    </section1>
+</a>
+<a id="section2">
+<section2>
+    <div class="main-training">
+        <div class="container">
+            <div class="main-inner-training">
+                <div class="heading"><H3>Explore Our Dynamic Training Programs</H3></div>
+                <div class="training-programs">
+                    <div class="first-row">
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000">
+                        <div class="yoga"><img src="./images/YOGA.png" alt=""></div></div>
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000">
+                        <div class="yoga"><img src="./images/FITNESS.png" alt=""></div></div>
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000">
+                        <div class="yoga"><img src="./images/CARDIO.png" alt=""></div></div>
+                        <div data-aos="fade-up"
+                            data-aos-duration="2000">
+                        <div class="yoga"><img src="./images/ZUMBA.png" alt=""></div></div>
+                        <div data-aos="fade-up"
+                            data-aos-duration="2000">
+                        <div class="yoga"><img src="./images/WORKOUT.png" alt=""></div></div>
+                        <div data-aos="fade-up"
+                            data-aos-duration="2000">
+                        <div class="yoga"><img src="./images/BODYBUILDING.png" alt=""></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section2>
+</a>
+<a id="section3">
+<section3>
+    <div class="main-category">
+        <div class="container">
+            <div class="main-inner-category">
+                <div class="heading-category"><h2>EXERCISES</h2></div>
+                <div class="exercises" id="exercises">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section3>
+</a>
+<a id="section4">
+<section4>
+    <div class="main-section4">
+        <div class="container">
+            <div class="main-section4-inner">
+                <div class="upper-section4">
+                    <div class="main-section4-heading"><h2>SHOP</h2></div>
+                </div>
+                <div class="mid-section4">
+                    <div class="clothes-btn" id="clothes"><button id="mybutton" onclick="getGymWear()">Gym wear</button></div>
+                    <div class="clothes-btn" id="equipments"><button id="mybutton_equip" onclick="getGymEquipment()">Gym equipments</button></div>
+                </div>
+                <div class="lower-section4">
+                    <div class="products" id="product_data">
+
+                    </div> 
+            </div>
+        </div>
+    </div>
+</section4>
+</a>
+<a id="section5">
+    <div class="About-us-main">
+        <div class="container">
+            <div class="About-us-inner">
+                
+                <div class="about-us-main-content">
+                    <div class="know-about-us-info">
+                        <div class="know-about-us-heading"><H2>ABOUT US</H2></div>
+                        <div class="about-us-desc"><span>
+                            Welcome to Our Gym, where fitness meets passion, and 
+                            every drop of sweat tells a story of dedication. Our gym 
+                            isn't just a place to work out; it's a community, a lifestyle, 
+                            and a commitment to your well-being.We are committe
+                            d to providing a safe, inclusive, and inspiring space for 
+                            individuals of all ages and fitness levels. Whether you're 
+                            a seasoned gym-goer or just starting, is here to support 
+                            you every step of the way.
+                        </span>
+                    
+                    </div>
+                    
+                    </div>
+                    <div class="about-us-image"><img src="./images/about us.png" alt=""></div>
+                
+                </div>
+                <div class="why-us-main-content">
+                    <div class="why-us-image"><img src="./images/why us.png" alt=""></div>
+                    <div class="why-us-info">
+                        
+                        <div class="why-us-heading"><H2>WHY CHOOSE US</H2></div>
+                        <div class="why-us-desc"><span>
+                            Welcome to Our Gym, where fitness meets passion, and 
+                            every drop of sweat tells a story of dedication. Our gym 
+                            isn't just a place to work out; it's a community, a lifestyle, 
+                            and a commitment to your well-being.We are committe
+                            d to providing a safe, inclusive, and inspiring space for 
+                            individuals of all ages and fitness levels. Whether you're 
+                            a seasoned gym-goer or just starting, is here to support 
+                            you every step of the way.
+                        </span>
+                    </div>
+                    
+                    </div>
+                
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</a>
+<a id="section6">
+
+<div class="facilities-main">
+    <div class="container">
+        <div class="facilities-inner">
+            <div class="facilities-heading"><H2>FACILITIES</H2></div>
+            <div class="actual-facilities">
+                <div class="fitness-equip"><img src="./images/Fitness Equipment.png" alt=""></div>
+                <div class="fitness-equip"><img src="./images/Fully Secured Area.png" alt=""></div>
+                <div class="fitness-equip"><img src="./images/Individual Locker.png" alt=""></div>
+                <div class="fitness-equip"><img src="./images/Qualified Trainer.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+
+
+<section6>
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="all-about-company">
+                <div class="logo_message">
+                    <div class="footer-logo"><img src="./images/GYM LOGO 1.png" alt=""></div>
+                    <div class="message"><span>
+                        Welcome to Fit Faction, where fitness meets passion,
+                        and every drop of sweat tells a story of dedication. Our gym isn't 
+                        just a place to work out; it's a community, a lifestyle, and 
+                        a commitment to your well-being.
+                    </span></div>
+                </div>
+                <div class="company">
+                    <div class="company-heading"><h6>Company</h6></div>
+                    <div class="company-about-us">About Us</div>
+                    <div class="company-about-us">Terms & Condition</div>
+                    <div class="company-about-us">Privacy Policy</div>
+                </div>
+                <div class="support">
+                    <div class="company-heading"><h6>Support</h6></div>
+                    <div class="company-about-us">FAQ</div>
+                    <div class="company-about-us">Help Center</div>
+                    <div class="company-about-us">How it works</div>
+                </div>
+                <div class="social-media">
+                    <div class="social-media-heading"><h6>Social Media Link</h6>
+                        <div class="linked-sm">
+                            <div class="insta-logo"><a href="https://www.instagram.com/atishaysonii/" target="_blank">
+                                <img src="./images/insta.jpeg" alt=""></a></div>
+                            <div class="insta-logo"><a href="https://www.linkedin.com/in/atishay-soni-84a723238/" target="_blank"><img src="./images/linkedin.png" alt=""></a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section6>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script
+  async
+  crossorigin="anonymous"
+  data-clerk-publishable-key="pk_test_cHJvYmFibGUtZWFyd2lnLTUzLmNsZXJrLmFjY291bnRzLmRldiQ"
+  src="https://probable-earwig-53.clerk.accounts.dev/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
+  type="text/javascript"
+></script>
+<script>
+    AOS.init();
+</script>
+<script src="home.js">
+    
+</script>
+</body>
+</html>
+
